@@ -4,7 +4,7 @@
   "description": "FEM React v7 project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/IsaacLSaunders/FEM-project/issues"
   },
-  "homepage": "https://github.com/IsaacLSaunders/FEM-project#readme"
+  "homepage": "https://github.com/IsaacLSaunders/FEM-project#readme",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
 }
